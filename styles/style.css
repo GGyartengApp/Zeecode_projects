@@ -172,3 +172,40 @@ html , body{
 .author{
     text-align: right;
 }
+
+.sect_four{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.action_call_banner{
+    padding: 40px 60px;
+    background-color: var(--ui_color_primary);
+    color: #E5E7EB;
+    border-radius: 8px;
+    align-items: center;
+    gap: 19rem;
+    display: flex;
+}
+
+.action_call_banner a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #3B82F6;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 5px 15px;
+
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    background-color: #1f2937;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
